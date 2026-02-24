@@ -3,8 +3,8 @@ import { ArrowRightIcon } from "lucide-react";
 export default function HeroSection() {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "/Abdul-Rehman-Software-Developer.pdf";   // public folder me CV
-        link.download = "Abdul-Rehman-Software-Developer.pdf";
+        link.href = "/Abdul-Rehman-Software-Engineer.pdf";   // public folder me CV
+        link.download = "Abdul-Rehman-Software-Engineer.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
