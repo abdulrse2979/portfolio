@@ -28,26 +28,40 @@ export default function ProjectsSection() {
 
     const projects = [
         {
+            title: "Al Nadia",
+            description: "Independent Project",
+            longDescription: [
+                "Developing full-stack application using Angular 21, NestJS, and PostgreSQL",
+                "Designing and built a bilingual (English/Arabic) AI chatbot using LLM API integration to assist website visitors in real time",
+                "Configured entire EC2 server with domain attachment and deployment",
+                "Implementing dual-language (EN/AR) module architecture"
+            ],
+            image: "/assets/alnadia.png",
+            tech: ["Angular", "Tailwind CSS", "AWS", "Next.js", "LLM/AI", "PostgreSQL"]
+        },
+        {
             title: "Delmonte QFS",
             description: "Funavry Technologies Project",
             longDescription: [
-                "Managed implementation of secure, performant modules for MENA, NA, TM projects.",
-                "Focused on scalability, modular code, Optimized application performance by 30%, implemented offline support and chatbot integration.",
-                "Contributed to digital process optimization and smart enterprise workflows, aligning with regional digital transformation objectives."
+                "Developed enterprise Angular modules; improved application performance by 30%",
+                "Built the conversational AI chatbot UI and integrated OpenAI API for automated customer interaction, including offline fallback support",
+                "Built scalable and modular architecture",  
+                "Supported MENA and international platforms"
             ],
             image: "/assets/Delmonte.png",
-            tech: ["Figma", "Angular", "Bootstrap", "AWS"]
+            tech: ["Figma", "Angular", "Bootstrap", "AWS", "OpenAI"]
         },
         {
             title: "TeamErage",
             description: "Funavry Technologies Project",
             longDescription: [
-                "Built the Angular 17 application from scratch using hybrid (standalone + modular) architecture.",
-                "Developed scoring modules and handled client UAT and demos.",
-                "Develop and maintained backend services especially for scoring during meet assignment."
+                "Developed and maintained a modular Angular application for team management and collaboration.",
+                "Implemented real-time chat and notification features using WebSocket and NgRx.",
+                "Optimized application performance and ensured cross-browser compatibility.",
+                "Collaborated with backend and product teams to deliver high-quality features on time."
             ],
             image: "/assets/Teamrage.png",
-            tech: ["Figma", "Angular", "Node.js", "MySql", "AWS"]
+            tech: ["Figma", "Angular", "Node.js", "MySql", "AWS", "OpenAI"]
         },
         {
             title: "Wallet Finder",
