@@ -2,6 +2,10 @@ import Section from "../components/section";
 
 export default function SkillsSection() {
     const skills = [
+        "LLM API Integration",
+        "AI Chatbot Development",
+        "Prompt Engineering",
+        "Python (for AI Automation)",
         "Angular",
         "Express.js",
         "React.js",
