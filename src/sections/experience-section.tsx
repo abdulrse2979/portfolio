@@ -8,15 +8,14 @@ export default function ExperienceSection() {
             company: "Funavry Technologies",
             location: "Islamabad, Pakistan",
             start: "Aug 2023",
-            end: "Jan 2026",
+            end: "Present",
             description: [
-                "Led the development of Angular and Next.js applications for large-scale enterprise and MENA digital platforms, with a strong focus on scalability, SSR performance, and maintainable frontend architecture.",
-                "Designed and implemented state management solutions using NgRx and React state patterns, integrated REST APIs, and optimized frontend performance for production environments.",
-                "Delivered high-performance enterprise modules following clean architecture principles and modern development standards.",
-                "Collaborated closely with UI/UX teams to translate Figma designs into responsive, pixel-perfect interfaces.",
-                "Mentored junior developers and promoted best practices through code reviews and cross-functional collaboration with backend, QA, and product teams.",
-                "Managed Docker-based CI/CD pipelines to streamline development, testing, and deployment workflows.",
-                "Prepared UAT reports and Excel dashboards to track bugs, test coverage, and release readiness in coordination with QA and product stakeholders."
+                "Led development of AI-integrated features, including LLM-powered chatbots with OpenAI API integration and prompt engineering.",
+                "Led development of Angular and Next.js enterprise applications with scalable component-based architecture and high-performance frontend solutions.",
+                "Developed and integrated Node.js REST APIs with MySQL, implementing secure authentication and reliable system communication.",
+                "Managed CI/CD workflows and SDLC environments (DEV/UAT/PROD) while collaborating with QA and product teams for smooth releases.",
+                "Mentored developers on AI-assisted development practices and evaluated AI tooling for team-wide adoption, alongside conducting technical interviews and supporting hiring.",
+                "Supported technical coordination and troubleshooting during project delivery."
             ],
         },
         {
